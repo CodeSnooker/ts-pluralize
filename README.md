@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/CodeSnooker/ts-pluralize.svg?branch=master)](https://travis-ci.org/CodeSnooker/ts-pluralize) [![Coverage Status](https://coveralls.io/repos/github/CodeSnooker/ts-pluralize/badge.svg?branch=master)](https://coveralls.io/github/CodeSnooker/ts-pluralize?branch=master)
+
 # ts-pluralize
 A Node.js module that returns the plural form of any noun
 
