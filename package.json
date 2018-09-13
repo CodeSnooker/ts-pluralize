@@ -1,0 +1,38 @@
+{
+  "name": "cs-ts-pluralize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist",
+    "test": "jest  --detectOpenHandles --forceExit",
+    "cover": "jest --detectOpenHandles --forceExit --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSnooker/ts-pluralize.git"
+  },
+  "files": [
+    "dist/"    
+  ],
+  "keywords": [],
+  "author": "Paras Mendiratta <code.snooker@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeSnooker/ts-pluralize/issues"
+  },
+  "homepage": "https://github.com/CodeSnooker/ts-pluralize#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/pluralize": "0.0.29",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.1.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
