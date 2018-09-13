@@ -1,6 +1,6 @@
 {
   "name": "cs-ts-pluralize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/CodeSnooker/ts-pluralize.git"
   },
   "files": [
-    "dist/"    
+    "dist/"
   ],
   "keywords": [],
   "author": "Paras Mendiratta <code.snooker@gmail.com>",
